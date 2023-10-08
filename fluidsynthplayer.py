@@ -14,7 +14,9 @@ is_linux = sys.platform.startswith('linux')
 class FluidSynthPlayer(MidiPlayer):
     def __init__(self, sf2_path):
         super(FluidSynthPlayer, self).__init__()
-        self.fs = F.Synth(gain=1.0, bsize=2048) # make a synth
+        # fix error: fluidsynth: error: Unknown integer parameter 'bsize'
+        #self.fs = F.Synth(gain=1.0, bsize=2048) # make a synth
+        self.fs = F.Synth(gain=1.0) # make a synth
 
         driver = None
         if is_linux:
@@ -89,7 +91,9 @@ class FluidSynthPlayer(MidiPlayer):
         return ticks
 
     def render_to_file(self, midi_path, output_path):
-        fs = F.Synth(gain=1.0, bsize=2048, output_path=output_path)
+        # fix error: fluidsynth: error: Unknown integer parameter 'bsize'
+        #fs = F.Synth(gain=1.0, bsize=2048, output_path=output_path)
+        fs = F.Synth(gain=1.0, output_path=output_path)
         soundfont_path = self.pending_soundfont
         if not soundfont_path:
             soundfont_path = self.soundfont_path
