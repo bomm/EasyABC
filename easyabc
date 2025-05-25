@@ -1,0 +1,2 @@
+#!/bin/sh
+python3 /usr/local/EasyABC/easy_abc.py "$@"
