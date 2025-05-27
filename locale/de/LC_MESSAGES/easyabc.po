@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: EasyABC 1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-26 20:46+0200\n"
-"PO-Revision-Date: 2025-05-26 23:50+0200\n"
+"PO-Revision-Date: 2025-05-27 14:58+0200\n"
 "Last-Translator: Bodo Meißner <bomm@users.sourceforge.net>\n"
 "Language-Team: EasyABC <info@nilsliberg.se>\n"
 "Language: de_DE\n"
@@ -140,7 +140,7 @@ msgstr "abcm2ps Programm:"
 
 #: easy_abc.py:2113
 msgid "This executable is used to display the music"
-msgstr "Dieses Programm wird verwendet, um die Musik anzuzeigen"
+msgstr "Dieses Programm wird verwendet, um die Partitur anzuzeigen"
 
 #: easy_abc.py:2114
 msgid "abc2midi executable:"
@@ -527,7 +527,8 @@ msgstr "Zusätzliche Kommandozeilenparameter für abcm2ps"
 #: easy_abc.py:2909
 msgid "Right click the mouse to remove all choices"
 msgstr ""
-"Klicken Sie mit der rechten Maustaste um alle Markierungen zu entfernen"
+"Klicken Sie mit der rechten Maustaste um alle Auswahlmöglichkeiten zu "
+"entfernen"
 
 #: easy_abc.py:2919
 msgid "Use the factory page settings of EasyABC"
@@ -544,7 +545,7 @@ msgstr "Skaliert den Abstand zwischen den Notenzeilen. Empfohlener Wert: {0}"
 
 #: easy_abc.py:3137
 msgid "This will remove the selections in the combobox."
-msgstr "Dies entfernt alle Markierungen in der Combobox."
+msgstr "Dies entfernt alle Auswahlmöglichkeiten aus der Liste."
 
 #: easy_abc.py:3154
 msgid "Find PostScript format file"
@@ -564,7 +565,7 @@ msgstr "Farbe für hervorgehobene Noten"
 
 #: easy_abc.py:3202
 msgid "Note highlight color when follow score"
-msgstr "Farbe für Notenhervorhebung beim Folgen in der Partitur"
+msgstr "Farbe für aktuelle Note bei Folgen in Partitur"
 
 #: easy_abc.py:3212
 msgid "Color of selected note"
