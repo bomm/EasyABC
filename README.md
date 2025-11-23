@@ -17,13 +17,14 @@ Currently, the following work is in progress:
 
 ## Problem reporting
 
-Please report here only problems that they are related to the Debian package or the German translation.
+Please report here only problems that are related to the Debian package or the German translation.
 
 Examples for possible problems related to the Debian package:
 
 - missing dependencies, e.g. trying to run EasyABC fails with an error message about a missing Python package
 - superfluous dependencies
 - wrong dependencies
+- wrong desktop integration (**desktop** menus, categories)
 - problems in the installation scripts
 - problems in the scripts for building the Debian package
 - non-compliance to rules or style guides for Debian packages
