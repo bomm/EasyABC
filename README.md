@@ -37,6 +37,6 @@ Examples for problems *NOT* to be reported here:
 - wrong display of the ABC source code or the music score
 - problems playing the music
 - problems in exporting or printing the music score
-- errors in the menus or toolboxes
+- errors in EasyABC's menus or toolboxes
 
 
