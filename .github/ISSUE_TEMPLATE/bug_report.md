@@ -20,6 +20,8 @@ Please check that the issue is related to my changes in this repository.
 
 If you see the same behaviour, then it is not related to my changes in bomm/EasyABC, and the issue should be reported in https://github.com/jwdj/EasyABC/issues
 
+See also the description in https://github.com/bomm/EasyABC/blob/master/README.md for examples of issues that should be reported here or in the upstream repository.
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
